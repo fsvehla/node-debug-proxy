@@ -1,0 +1,24 @@
+{
+  "name":        "node-debug-proxy",
+  "description": "The almighty storage router",
+  "keywords": [ "tcp", "proxy", "debug" ],
+  "version":     "0.0.1",
+  "author": "Ferdinand Svehla <f.svehla@gmail.com>",
+  "maintainers": [
+    {
+      "name": "Ferdinand Svehla",
+      "email": "f.svehla@gmail.com"
+    }
+  ],
+  "directories": { "lib": "./lib", "test": "./test" },
+  "engines": { "node":  ">0.1.90" },
+  "main": "./node-debug-proxy",
+  "os": [ "linux", "darwin" ],
+  "dependencies": {
+    "nodeunit":    "0.4.0"
+  },
+  "repositories": {
+    "type": "git",
+    "url": "https://fsvehla@github.com/fsvehla/node-debug-proxy.git"
+  }
+}
