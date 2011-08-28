@@ -15,7 +15,7 @@
   "main": "lib/node-debug-proxy.js",
   "os": [ "linux", "darwin" ],
   "dependencies": {
-    "nodeunit":    "0.4.0"
+    "underscore": "*"
   },
   "repositories": {
     "type": "git",
